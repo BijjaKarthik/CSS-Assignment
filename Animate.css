@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+div{
+    position: relative;
+    height: 80vh;
+}
+
+#mountain{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top:0;
+}
+
+
+#aeropl{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 600px;
+    right: 0;
+    z-index: 100;
+    animation-name: dubai; 
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+
+#road{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 400px;
+}
+
+
+
+@keyframes dubai {
+    0%{
+        transform: translate(0px);
+    }50%{
+        transform: translateX(-600px);
+    }70%{
+        transform: rotate(30deg) translateX(-1000px);
+    }
+    
+}

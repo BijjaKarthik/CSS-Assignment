@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+ body{
+    font-family: Arial, sans-serif;
+    background-color:blue;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.parent2{
+
+    padding: 5rem;
+    color: aliceblue;
+    
+}
+
+.parent3{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 300px 300px 300px;
+
+}
+
+
+
+
+.card{
+    background-color:white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+   
+    height: 60vh;
+    width: 250px;
+    
+    align-content: center;
+    font-size: 1rem;
+    text-align: center;
+
+ 
+}
+
+
+.emoji{
+    font-size: 2rem;
+    padding:.3rem;
+
+}
+
+.price>span{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.card-text{
+    padding: .5rem;
+    margin: 5px 0;
+
+}
+
+.card-price>span{
+    padding: .5rem;
+    color: blue;
+    font-size: 2.2rem;
+}
+.card-price{
+    color: blue;
+}
+
+
+.card2{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+   
+    width: 250px;
+    height: 65vh;
+    
+    align-content:flex-start;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+.emoji{
+    font-size: 7rem;
+   
+
+
+}
+
+.price{
+    font-size: 3rem;
+
+
+}
+
+/* 
+.card-text{
+    
+    padding: 1.5rem;
+} */
+
+button{
+    padding: 1rem 2rem ;
+    color: aliceblue;
+}
+.card-head{
+    font-size: 1.5rem;
+    
+   color: blue;
+    background-color: rgb(218, 169, 100);
+    
+}
+.card-title{
+    padding: 1rem;
+    font-size: 2rem;
+} 
+
+
+
+.card3{
+    background-color: white;
+    border:2px solid black;
+}
+
+.card-head1{
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+a{
+    border: 2px hidden red;
+    margin: 3px 5px;
+}
+    
+    
+.p1{
+    padding-bottom: 20px;
+}
+
+p{
+    padding-bottom: 8px;
+}
+
+

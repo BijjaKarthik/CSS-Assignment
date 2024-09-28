@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    /* display: flex; */
+    /* /* justify-content: center; */
+    align-items: center; 
+    background-color:whitesmoke;
+} 
+
+
+.Fire {
+    position: relative;
+    left: 480px;
+    top: 100px;
+}
+
+.flame1 {
+    background-color: rgb(79, 35, 35);
+    height: 150px;
+    width: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    left: 95px;
+    transform: rotate(300deg);
+    z-index: 3;
+}
+
+.flame2 {
+    background-color: rgb(79, 35, 35);
+    height: 150px;
+    width: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(45, 10, 10);
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    transform: rotate(60deg);
+    z-index: 3;
+}
+
+
+.flame3 {
+    background-color: rgb(200, 147, 12);
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    position: absolute;
+    top: 165px;
+    left: 105px;
+    transform: rotate(45deg);
+    animation-name:fire1;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+
+
+}
+
+
+@keyframes fire1 {
+    0%{
+        transform: translate(45deg);
+        background-color: rgb(253, 176, 0);
+    }50%{
+        transform: translateY(-30px) rotate(45deg) scale(2);
+        background-color: rgb(253, 176, 0);
+    }75%{
+        transform: translateY(-60px) rotate(45deg) scale(1.5);
+        background-color: rgb(253, 176, 0);
+    }100%{
+        transform: translateY(20px, -120px) rotate(45deg) scale(0);
+        background-color: rgb(249, 90, 1);
+
+    }
+}  
+
+.logs {
+    background-color: rgb(200, 147, 12);
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    position: absolute;
+    top: 165px;
+    left: 105px;
+    transform: rotate(45deg);
+    animation-name:fire2;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.4s;
+
+
+}
+
+
+
+@keyframes fire2 {
+    0%{
+        transform: translate(45deg);
+        background-color: rgb(253, 176, 0);
+    }50%{
+        transform: translateY(-30px) rotate(45deg) scale(2);
+        background-color: rgb(253, 176, 0);
+    }75%{
+        transform: translateY(-60px) rotate(45deg) scale(1.5);
+        background-color: rgb(253, 176, 0);
+    }100%{
+        transform: translateY(20px, -120px) rotate(45deg) scale(0);
+        background-color: rgb(249, 90, 1);
+
+    }
+}  
+
+
+.logs {
+
+    background-color: rgb(200, 147, 12);
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    position: absolute;
+    top: 165px;
+    left: 105px;
+    transform: rotate(45deg);
+    animation-name:fire3;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.8s;
+
+
+}
+
+
+
+
+@keyframes fire3{
+    0%{
+        transform: translate(45deg);
+        background-color: rgb(253, 176, 0);
+    }50%{
+        transform: translateY(-30px) rotate(45deg) scale(2);
+        background-color: rgb(253, 176, 0);
+    }75%{
+        transform: translateY(-60px) rotate(45deg) scale(1.5);
+        background-color: rgb(253, 176, 0);
+    }100%{
+        transform: translateY(20px, -120px) rotate(45deg) scale(0);
+        background-color: rgb(249, 90, 1);
+
+    }
+}  

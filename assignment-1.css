@@ -1,0 +1,75 @@
+
+.h1{
+    border: 3px solid black;
+    box-shadow: 1px -9px 5px 0px rgba(14,242,117,1);
+     width: 300px;
+     height: 200px;
+     padding: 30px;
+     position:absolute;
+     flex-flow: column;
+     margin: 200px;
+    margin-left: 170px;
+    top:120px;
+    bottom: -800px;
+
+
+     
+}
+
+.bi{
+    position:absolute;
+    font-size: 4rem; 
+    top: 50%;
+    left: 76%;
+    bottom: 60px;
+    place-items: end;
+    
+}
+
+.h2{
+    box-shadow: 1px -9px 5px 0px rgba(245,17,97,1);
+    border: 3px solid black;
+    width: 300px;
+    height: 200px;
+    position:absolute;
+    margin: 200px;
+    padding: 30px;
+    top:-30px;
+    bottom: -600px;
+    left: 400px;
+    right:20px;
+   
+    
+}
+
+.h3{
+    box-shadow: 1px -9px 5px 0px rgba(245,172,14,1);
+    border:3px solid black ;
+    width: 300px;
+    height:200px;
+    padding: 30px;
+    position:absolute;
+    margin: 200px;
+    top: 300px;
+    right: 600px;
+    left: 400px;
+    bottom:800px;
+}
+
+
+.h4{
+    box-shadow: 1px -9px 5px 0px rgba(32,70,224,1);
+    border: 3px solid black;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    padding: 30px;
+    /* margin: 200px;
+    top: 120px;
+    right:-50px;
+   bottom: 100px; */
+   margin: 200px;
+   margin-left: 1020px;
+   top:120px;
+   bottom: -800px;
+}

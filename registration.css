@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+    background-color: linear-gradient(to bottom, #2c2c2c,#e1a6f2);
+
+}
+
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+
+}
+
+
+.p1{
+    display: flex;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+
+img{
+    width: 290px;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+
+.form{
+    display: flex;
+    border-radius: 10px;
+     flex-direction: column; 
+     /* border: 2px solid red; */
+     height: 60vh;
+     width: 290px;
+     justify-content: center;
+     padding-left: 10px;
+     background-color: pink;
+     
+}
+.bi-calendar-date{
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    
+}
+
+
+/* form{
+    display: flex;
+    text-align: center;
+} */
+
+
+input,select {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    
+}
+#Gender{
+    width: 16rem;
+}

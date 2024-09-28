@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS", sans-serif;
+    
+}
+
+
+.parent{
+display: grid;
+grid-template-columns: 200px auto 400px;
+grid-template-areas:
+"a b c"
+;
+/* gap: 5px red; */
+width: 100%;
+height: 100vh;
+background-image: url(https://www.shutterstock.com/image-vector/star-universe-background-stardust-deep-600nw-1907210152.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+/* position: fixed; */
+}
+
+.child1{
+    grid-area: a;
+    position: relative;
+    top: 200px;
+    left: 80px;
+    border-radius: 40px;
+    margin-left: 80px;
+}
+
+
+.child2{
+    grid-area: b;
+    position: relative;
+    top: 170px;
+    left: 200px;
+    margin-left: 100px;
+    /* border: 2px solid red; */
+    
+
+}
+.img2{
+    position: relative;
+    top: 100px;
+    left: 190px;
+}
+
+/* .b4> errorp2 {
+    padding-top: 400px;
+    margin-left: 200px;
+
+} */
+
+
+.child3{
+    grid-area: c;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    border-radius: 70px;
+    /* border: 2px solid red; */
+     padding-right: 900px;
+     padding-top: 120px;
+
+    animation: img1 5s linear 5s infinite forwards;
+}
+
+@keyframes img1{
+    to{
+        transform: translateY(0px);
+        animation-delay: 5s;
+    }
+    from{
+        transform: translateY(20px);
+        animation-delay: 5s;
+    }
+}
+
+.a1{
+    position: relative;
+    top: 0;
+    font-size: 2cm;
+    margin-left: 160px;
+    color:rgb(250, 198, 135);
+    animation: img11 5s linear 4s infinite both;
+}
+
+@keyframes img11{
+    to{
+        transform: translateY(0px);
+        animation-delay: 4s;
+    }
+    from{
+        transform: translateY(20px);
+        animation-delay: 4s;
+    }
+
+}
+
+.a1>span{
+    position: relative;
+    top: 0;
+    font-size: 2cm;
+    color: antiquewhite;
+    animation: img2 4s linear 6s infinite forwards;
+}
+
+@keyframes img2{
+    to{
+        transform: translateY(0px);
+    }
+    from{
+        transform: translateY(20px);
+    }
+}
+
+.b4{
+    position: relative;
+    top: 0;
+    font-size: 1.5cm;
+    color: rgb(83, 74, 129);
+    animation: img2 2s linear 2s infinite forwards;
+
+}
+
+.b4>span{
+    position: relative;
+    top: 0;
+    font-size: 1.5cm;
+    color: rgb(139, 103, 187);
+}
+
+
+
+
+
+
+
